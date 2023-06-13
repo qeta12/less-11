@@ -1,0 +1,30 @@
+@import "_reset.scss";
+@import "./_variables.scss";
+@import "./fonts.scss";
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 16px;
+    background-color: $color1;
+    
+    .logo {
+        width: 100%;
+            img {
+            width: 10%;
+            }
+    }
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 30px;
+        font-size: $fontSize;
+        a {
+            color: $color1;
+            &:hover{
+                color: $color2;
+            }
+        }
+    } 
+}
